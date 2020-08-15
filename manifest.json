@@ -1,19 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "e-ink-browser-extension",
-  "version": "1.0.0",
   "description": "Make your browser boring like a book ",
+  "name": "E-ink",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/martyns0n/e-ink-browser-extension",
   "permissions": [
     "https://*/*",
     "http://*/*"
   ],
-  "content_scripts": [{
-    "matches": [
-      "http://*/*",
-      "https://*/*"
-    ],
-    "js": [
-      "app.js"
-    ]
-  }]
+  "browser_action": {
+    "default_title": "Color boredom for focus"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
 }
