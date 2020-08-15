@@ -1,0 +1,7 @@
+{
+  "name": "e-ink-browser-extension-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {}
+}
