@@ -1,4 +1,4 @@
-# 𝔈𝔦𝔫𝔨
+# 𝔈𝔦𝔫𝔨 (e-ink)
 
 Browser extension for a boredom in our so tempting 2020 web
 
